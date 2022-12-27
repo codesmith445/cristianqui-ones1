@@ -1,0 +1,120 @@
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 50vh;
+    }
+
+    .nav ul li a {
+        font-size: 15px;
+        margin-left: -16px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .fade h1 {
+        font-size: 25px;
+    }
+
+    
+
+    .about img {
+        display: none;
+    }
+
+    .about-content {
+        width: 470px;
+        text-align: center;
+    }
+
+    .about-content h1 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+
+    .works-top h1 {
+        font-size: 22px;
+    }
+    
+    .works-top p {
+        font-size: 14px;
+    }
+
+    .works-nav ul {
+        margin-right: -100px;
+    }
+
+    .works-nav ul li a {
+        font-size: 15px;
+    }
+
+    .works-card-wrapper {
+        margin-left: -155px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .left {
+        display: none;
+    }
+
+    .works-card img {
+        height: 130px;
+        width: 148px;
+    }
+
+    .services-top h1 {
+        font-size: 20px;
+    }
+
+    .services-top p {
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+    .services-card-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #services {
+        height: 160vh;
+        overflow-y: hidden;
+    }
+
+    .services-card {
+        margin-top: 20px;
+    }
+    
+
+    .contact {
+        height: 150vh;
+    }
+    
+    
+    .contact-top h1 {
+        font-size: 20px;
+        
+    }
+
+    
+    .contact-form {
+        width: 90%;
+    }
+
+
+    .contact-top p {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding-top: 130px;
+    }
+
+}
